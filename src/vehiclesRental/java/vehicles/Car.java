@@ -1,4 +1,4 @@
-package vechiles;
+package vehicles;
 
 public class Car extends Vehicle {
 

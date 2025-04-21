@@ -1,4 +1,4 @@
-package vechiles;
+package vehicles;
 
 public class Truck extends Vehicle {
     private int capacity;

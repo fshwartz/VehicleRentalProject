@@ -1,4 +1,4 @@
-package vechiles;
+package vehicles;
 
 public abstract class Vehicle {
     private String licensePlate;
@@ -13,18 +13,34 @@ public abstract class Vehicle {
         this.rentalPrice = rentalPrice;
     }
 
+    /**
+     * this method return licensePlate for vehicle
+     * @return licensePlate
+     */
     public String getLicensePlate() {
         return licensePlate;
     }
 
+    /**
+     * this method return make for vehicle
+     * @return model
+     */
     public String getMake() {
         return make;
     }
 
+    /**
+     * this method return model for vehicle
+     * @return model
+     */
     public String getModel() {
         return model;
     }
 
+    /**
+     * this method return rental price for this vehicle
+     * @return rentalPrice
+     */
     public double getRentalPrice() {
         return rentalPrice;
     }

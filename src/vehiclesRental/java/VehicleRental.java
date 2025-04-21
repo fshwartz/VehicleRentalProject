@@ -1,8 +1,8 @@
 import customers.CorporateCustomer;
 import customers.RegularCustomer;
-import vechiles.Car;
-import vechiles.Truck;
-import vechiles.Vehicle;
+import vehicles.Car;
+import vehicles.Truck;
+import vehicles.Vehicle;
 import java.util.List;
 
 public class VehicleRental {
