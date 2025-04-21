@@ -20,7 +20,10 @@ public interface Customer {
      * Retrieves the list of vehicles currently rented by this customer.
      * @return List Vehicle by this customer.
      */
+    /**
+     * Retrieves the list of vehicles currently rented by this customer.
+     * @return List Vehicle by this customer.
+     */
     List<Vehicle> getRentedVehicles();
-
 
 }
