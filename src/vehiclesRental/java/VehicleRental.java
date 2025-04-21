@@ -3,6 +3,7 @@ import customers.RegularCustomer;
 import vehicles.Car;
 import vehicles.Truck;
 import vehicles.Vehicle;
+
 import java.util.List;
 
 public class VehicleRental {
@@ -21,27 +22,27 @@ public class VehicleRental {
         //example 1
         corporateCustomer1.rentVehicle(car1, 1);
         corporateCustomer1.rentVehicle(truck1, 2);
-        corporateCustomer1.rentVehicle(truck2,5);
+        corporateCustomer1.rentVehicle(truck2, 5);
         List<Vehicle> vehicleList1 = corporateCustomer1.getRentedVehicles();
-        System.out.println(corporateCustomer1.getName() +" rented total: "+vehicleList1.size()+" vehicles");
+        System.out.println(corporateCustomer1.getName() + " rented total: " + vehicleList1.size() + " vehicles\n");
 
         //example 2
         regularCustomer1.rentVehicle(truck1, 1);
         regularCustomer1.rentVehicle(truck2, 4);
         regularCustomer1.rentVehicle(car2, 7);
         List<Vehicle> vehicleList2 = regularCustomer1.getRentedVehicles();
-        System.out.println(regularCustomer1.getName() +" rented total: "+vehicleList2.size()+" vehicles");
+        System.out.println(regularCustomer1.getName() + " rented total: " + vehicleList2.size() + " vehicles\n");
 
         //example 3
         regularCustomer2.rentVehicle(car2, 2);
         List<Vehicle> vehicleList3 = regularCustomer2.getRentedVehicles();
-        System.out.println(regularCustomer2.getName() +" rented total: "+vehicleList3.size()+" vehicles");
+        System.out.println(regularCustomer2.getName() + " rented total: " + vehicleList3.size() + " vehicles\n");
 
         //example 4
         corporateCustomer2.rentVehicle(truck1, 3);
         corporateCustomer2.rentVehicle(truck2, 2);
         List<Vehicle> vehicleList4 = corporateCustomer2.getRentedVehicles();
-        System.out.println(corporateCustomer2.getName() +" rented total: "+vehicleList4.size()+" vehicles");
+        System.out.println(corporateCustomer2.getName() + " rented total: " + vehicleList4.size() + " vehicles\n");
 
     }
 

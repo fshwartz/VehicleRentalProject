@@ -1,6 +1,7 @@
 package customers;
 
 import vehicles.Vehicle;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,18 +25,19 @@ public class CorporateCustomer implements Customer {
      * and Calculate a 10 percent discount for a corporate customer
      *
      * @param vehicle The vehicle that the customer rented.
-     * @param days The number of days the vehicle is being rented for.
+     * @param days    The number of days the vehicle is being rented for.
      */
     @Override
     public void rentVehicle(Vehicle vehicle, int days) {
         double lastCost = vehicle.calculateRentalCost(days) * (0.9);
         rentedVehicles.add(vehicle);
-        System.out.println("cost for: "+ vehicle.getMake() + " for: "+ days+ " days is: "+lastCost);
+        System.out.println("cost for: " + vehicle.getMake() + " "+vehicle.getModel()+" for: " + days + " days is: " + lastCost);
     }
 
 
     /**
      * Retrieves the list of vehicles currently rented by this customer.
+     *
      * @return List Vehicle by this customer.
      */
     @Override

@@ -15,6 +15,7 @@ public abstract class Vehicle {
 
     /**
      * this method return licensePlate for vehicle
+     *
      * @return licensePlate
      */
     public String getLicensePlate() {
@@ -23,6 +24,7 @@ public abstract class Vehicle {
 
     /**
      * this method return make for vehicle
+     *
      * @return model
      */
     public String getMake() {
@@ -31,6 +33,7 @@ public abstract class Vehicle {
 
     /**
      * this method return model for vehicle
+     *
      * @return model
      */
     public String getModel() {
@@ -39,6 +42,7 @@ public abstract class Vehicle {
 
     /**
      * this method return rental price for this vehicle
+     *
      * @return rentalPrice
      */
     public double getRentalPrice() {

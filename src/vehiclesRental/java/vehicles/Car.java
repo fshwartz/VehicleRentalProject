@@ -8,6 +8,7 @@ public class Car extends Vehicle {
         super(licensePlate, make, model, rentalPrice);
         this.type = type;
     }
+
     /**
      * Calculates the rental cost for car for a given number of days.
      *
