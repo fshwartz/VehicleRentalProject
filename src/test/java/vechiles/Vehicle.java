@@ -29,6 +29,13 @@ public abstract class Vehicle {
         return rentalPrice;
     }
 
+    /**
+     * Calculates the rental cost for this vehicle for a given number of days.
+     * This is an abstract method and must be implemented by concrete subclasses
+     *
+     * @param days The number of days the vehicle rented.
+     * @return The total rental cost for the specified number of days.
+     */
     public abstract double calculateRentalCost(int days);
 
 }
